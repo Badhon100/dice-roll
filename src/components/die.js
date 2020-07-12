@@ -8,7 +8,7 @@ class Die extends Component {
     render() { 
         return ( 
             <div>
-                <i className = {`die fas fa-dice-one`}></i>
+                <i className = {`die fas fa-dice-${this.props.face}`}></i>
             </div>
          );
     }
